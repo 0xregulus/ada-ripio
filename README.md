@@ -1,4 +1,20 @@
+# ADA + Ripio Block Explorer
+
+Explorador de bloques de la blockchain Ethereum construido en el workshop de ADA dictado por Ripio.
+
+Para ver casa STEP funcionando solo hace falta ingresar a la carpeta `blockexp` del step que se desea ver funcionando y ejecutar:
+
+```bash
+$ npm install
+```
+```bash
+$ npm start
+```
+
+
 ## STEP 0 - Setup
+
+Estos son las instrucciones para llegar al step 0
 
 ```bash
 $ npm install -g create-react-app
@@ -14,6 +30,8 @@ $ npm start
 ```
 
 ## STEP 1 - Estructura
+
+Estos son las instrucciones para llegar al step 0
 
 ```bash
 $ cd src

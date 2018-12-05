@@ -76,3 +76,7 @@ Editar el componente Home
 ## STEP 5 - Detalle del bloque
 
 Editar el componente Block
+
+## STEP 6 - Estilos
+
+Estilos de los componentes

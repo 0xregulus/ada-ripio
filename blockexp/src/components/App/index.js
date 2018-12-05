@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './style.css';
 import Block from './../Block';
 import Home from './../Home';
@@ -17,10 +17,9 @@ class App extends Component {
         <Router>
             <div>
                 <Link to="/">Home</Link>
-                <Link to="/block">Block</Link>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/block" render={() => (
-                <h3>Please select a blockHash.</h3>
+                <h3>Seleccionar un blockHash.</h3>
                 )}/>
                 <Route path="/block/:blockHash" component={Block}/>
             </div>
